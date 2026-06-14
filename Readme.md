@@ -3,7 +3,7 @@
 A Gradio-based Retrieval-Augmented Generation (RAG) app that answers questions about uploaded contract files (`.pdf` and `.docx`) using:
 - OpenRouter embeddings for retrieval
 - FAISS vector search for chunk matching
-- Groq-hosted chat completion for final answer generation
+- Groq-hosted chat completion for final answer generation.
 
 ## Features
 - Upload one or more contract files (`PDF`/`DOCX`)
