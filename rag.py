@@ -15,7 +15,7 @@ class RetrievedChunk:
     label: str
     text: str
 
-
+# main class
 class ContractRAG:
     def __init__(
         self,
