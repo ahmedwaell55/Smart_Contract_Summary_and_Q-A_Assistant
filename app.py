@@ -63,7 +63,7 @@ def ask_contract(files, question):
         return f"Error: {str(exc)}"
 
 
-with gr.Blocks(title="Smart Contract Summary & Q&A") as demo:
+with gr.Blocks(title="Contract Q&A") as demo:
     gr.Markdown("# Smart Contract Summary & Q&A Assistant")
 
     files = gr.Files(label="Upload contract files (PDF/DOCX)", file_types=[".pdf", ".docx"])
